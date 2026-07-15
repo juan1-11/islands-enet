@@ -2,7 +2,7 @@ package com.juan.islands;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.Identifier;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,7 +24,7 @@ public class IslandsEnet implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 	}
 
-	public static ResourceLocation id(String path) {
-		return new ResourceLocation(MOD_ID, path);
+	public static Identifier id(String path) {
+		return new Identifier(MOD_ID, path);
 	}
 }
