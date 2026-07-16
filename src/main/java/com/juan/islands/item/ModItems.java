@@ -10,9 +10,6 @@ public class ModItems {
     public static final Item RAW_PYRITE = registerItem("raw_pyrite",
         new Item(new Item.Settings().group(ItemGroup.MISC)));
 
-    public static final Item SEA_TORCH = registerItem("sea_torch",
-        new Item(new Item.Settings().group(ItemGroup.DECORATIONS)));
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier("islands_enet", name), item);
     }
