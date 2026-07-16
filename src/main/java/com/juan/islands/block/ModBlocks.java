@@ -17,7 +17,8 @@ public class ModBlocks {
         new Block(FabricBlockSettings.of(Material.STONE)
             .strength(3.0f, 3.0f)
             .requiresTool()
-        )
+        ),
+        ItemGroup.BUILDING_BLOCKS
     );
 
     public static final Block SEA_TORCH = registerBlock("sea_torch",
@@ -26,21 +27,19 @@ public class ModBlocks {
             .luminance(state -> 14)
             .sounds(BlockSoundGroup.WOOD)
             .breakInstantly()
-        )
+        ),
+        ItemGroup.DECORATIONS
     );
 
-    private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block);
+    private static Block registerBlock(String name, Block block, ItemGroup group) {
+        registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier("islands_enet", name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block) {
+    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.ITEM, new Identifier("islands_enet", name),
-            new BlockItem(block, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+            new BlockItem(block, new Item.Settings().group(group)));
     }
 
-    public static void registerModBlocks() {
-        // Este metodo existe solo para forzar que la clase se cargue
-        // y los bloques se registren al iniciar el mod
-    }
+    public static void registerModBlocks() {}
 }
