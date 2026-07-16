@@ -1,4 +1,5 @@
 {
-  "block.islands_enet.pyrite_ore": "Pyrite Ore",
-  "item.islands_enet.raw_pyrite": "Raw Pyrite"
+  "block.islands_enet.pyrite_ore": "Pyrite ore",
+  "item.islands_enet.raw_pyrite": "Raw pyrite",
+  "item.islands_enet.sea_torch": "Sea torch"
 }

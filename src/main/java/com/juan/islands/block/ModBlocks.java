@@ -6,8 +6,10 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import com.juan.islands.block.custom.SeaTorchBlock;
 
 public class ModBlocks {
 
@@ -15,6 +17,15 @@ public class ModBlocks {
         new Block(FabricBlockSettings.of(Material.STONE)
             .strength(3.0f, 3.0f)
             .requiresTool()
+        )
+    );
+
+    public static final Block SEA_TORCH = registerBlock("sea_torch",
+        new SeaTorchBlock(FabricBlockSettings.of(Material.DECORATION)
+            .noCollision()
+            .luminance(state -> 14)
+            .sounds(BlockSoundGroup.WOOD)
+            .breakInstantly()
         )
     );
 

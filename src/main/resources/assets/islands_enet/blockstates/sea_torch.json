@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "waterlogged=true": { "model": "islands_enet:block/sea_torch" },
+    "waterlogged=false": { "model": "islands_enet:block/sea_torch" }
+  }
+}
