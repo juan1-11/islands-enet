@@ -2,9 +2,11 @@ package com.juan.islands;
 
 import com.juan.islands.block.ModBlocks;
 import com.juan.islands.item.ModItems;
+import com.juan.islands.entity.ModEntities;
+import com.juan.islands.entity.custom.SharkEntity;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.util.Identifier;
 
 import org.apache.logging.log4j.LogManager;
@@ -28,7 +30,10 @@ public class IslandsEnet implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModBlocks.registerModBlocks();
         ModItems.registerModItems();
-    
+		ModEntities.registerModEntities();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.SHARK, SharkEntity.createSharkAttributes());
+
 	}
 
 	public static Identifier id(String path) {

@@ -1,5 +1,6 @@
 {
   "block.islands_enet.pyrite_ore": "Mineral de pirita",
   "item.islands_enet.raw_pyrite": "Pirita en bruto",
-  "block.islands_enet.sea_torch": "Antorcha oceanica" 
+  "block.islands_enet.sea_torch": "Antorcha oceanica",
+  "entity.islands_enet.shark_kid": "Tiburon joven"
 }

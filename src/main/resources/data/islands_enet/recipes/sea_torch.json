@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern":[
+        "P",
+        "S"
+    ],
+    "key": {
+        "P" : {"item": "islands_enet:raw_pyrite"},
+        "S" : {"item": "minecraft:stick"}
+    },
+    "result": {
+        "item": "islands_enet:sea_torch",
+        "count": 4
+    }
+}
