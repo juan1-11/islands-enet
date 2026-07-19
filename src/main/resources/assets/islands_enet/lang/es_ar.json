@@ -2,5 +2,8 @@
   "block.islands_enet.pyrite_ore": "Mineral de pirita",
   "item.islands_enet.raw_pyrite": "Pirita en bruto",
   "block.islands_enet.sea_torch": "Antorcha oceanica",
-  "entity.islands_enet.shark_kid": "Tiburon joven"
+  "entity.islands_enet.shark_kid": "Tiburon joven",
+  "entity.islands_enet.vex_evoker": "Vex evoker",
+  "entity.islands_enet.aprendice": "Aprendiz",
+  "entity.islands_enet.burning_zombie": "Zombi quemante"
 }

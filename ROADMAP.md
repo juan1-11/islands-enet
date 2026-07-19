@@ -6,11 +6,11 @@ Plan de desarrollo de 5 meses (~22 semanas). Cada mes tiene un foco principal, p
 **Foco: Entendimiento de Java y coordinacion mod-datapack**
 - [x] Setup del entorno (Fabric 1.16.5, Gradle, VS Code)
 - [x] Repositorio en GitHub configurado (README, LICENSE, .gitignore)
-- [ ] Registro de bloques (patrón base reutilizable)
-- [ ] Registro de entidades (patrón base reutilizable)
+- [x] Registro de bloques (patrón base reutilizable)
+- [x] Registro de entidades (patrón base reutilizable)
 - [ ] Pipeline datapack ↔ mod funcionando
 - [ ] Sistema de admin — panel básico (`tellraw` + tags)
-- [ ] Primer bloque de prueba end-to-end (ej: Mena de Pirita)
+- [x] Primer bloque de prueba end-to-end (ej: Mena de Pirita)
 
 ## Mes 2 — Contenido núcleo
 **Foco: Bloques + Entidades + Items fundacionales**

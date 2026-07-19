@@ -2,5 +2,8 @@
   "block.islands_enet.pyrite_ore": "Pyrite ore",
   "item.islands_enet.raw_pyrite": "Raw pyrite",
   "block.islands_enet.sea_torch": "Sea torch",
-  "entity.islands_enet.shark_kid": "Young shark"
+  "entity.islands_enet.shark_kid": "Young shark",
+  "entity.islands_enet.vex_evoker": "Evoker vex",
+  "entity.islands_enet.aprendice": "Aprendice",
+  "entity.islands_enet.burning_zombie": "Burning zombie"
 }

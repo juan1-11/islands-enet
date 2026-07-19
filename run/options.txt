@@ -26,7 +26,7 @@ gamma:0.0
 renderDistance:5
 entityDistanceScaling:0.5
 guiScale:2
-particles:2
+particles:0
 maxFps:30
 difficulty:2
 graphicsMode:0
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
