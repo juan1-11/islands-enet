@@ -1,5 +1,6 @@
 {
   "values": [
-    "islands_enet:load"
+    "islands_enet:load",
+    "islands_enet:mana/mana_load"
   ]
 }
